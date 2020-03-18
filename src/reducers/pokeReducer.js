@@ -9,11 +9,14 @@ const initialState = {
 const pokeReducer = (state = initialState, action) => {
     switch (action.type) {
         case SEARCH_POKEMON:
-            console.log(state.pokemones);
+            const statePokemones = action.payload;
+            const filteredPokemones = statePokemones.filter(pokemon => {
+                return pokemon.name.toLowerCase().indexOf(action.text.toLowerCase()) !== -1;
+              });
             return {
                 ...state,
-                textSearch: action.payload,
-                pokemones: state.pokemones.filter(pokemon => pokemon.name === action.payload)
+                textSearch: action.text,
+                pokemones: filteredPokemones
             }
         case FETCH_POKEMONES:
             return {

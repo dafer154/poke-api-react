@@ -4,13 +4,12 @@ import {searchPokemon} from '../actions/pokeActions';
 
 export class Search extends Component {
     onChange = e =>{
-        this.props.searchPokemon(e.target.value)
+        const text = e.target.value;
+        this.props.searchPokemon(text);
     }
 
     onSubmit = e =>{
         e.preventDefault();
-        console.log('TARGET', e.target.value);
-        this.props.searchPokemon('bulbasaur')
     }
 
     render() {
