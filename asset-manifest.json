@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/poke-api-react/static/css/main.8bb0d546.chunk.css",
+    "main.js": "/poke-api-react/static/js/main.784a7e5b.chunk.js",
+    "main.js.map": "/poke-api-react/static/js/main.784a7e5b.chunk.js.map",
+    "runtime-main.js": "/poke-api-react/static/js/runtime-main.79f016fc.js",
+    "runtime-main.js.map": "/poke-api-react/static/js/runtime-main.79f016fc.js.map",
+    "static/js/2.1d3df887.chunk.js": "/poke-api-react/static/js/2.1d3df887.chunk.js",
+    "static/js/2.1d3df887.chunk.js.map": "/poke-api-react/static/js/2.1d3df887.chunk.js.map",
+    "index.html": "/poke-api-react/index.html",
+    "precache-manifest.defc7cfa51150b8a489ea2a74d3ce14b.js": "/poke-api-react/precache-manifest.defc7cfa51150b8a489ea2a74d3ce14b.js",
+    "service-worker.js": "/poke-api-react/service-worker.js",
+    "static/css/main.8bb0d546.chunk.css.map": "/poke-api-react/static/css/main.8bb0d546.chunk.css.map",
+    "static/js/2.1d3df887.chunk.js.LICENSE.txt": "/poke-api-react/static/js/2.1d3df887.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79f016fc.js",
+    "static/js/2.1d3df887.chunk.js",
+    "static/css/main.8bb0d546.chunk.css",
+    "static/js/main.784a7e5b.chunk.js"
+  ]
+}
