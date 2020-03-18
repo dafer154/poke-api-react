@@ -1,0 +1,23 @@
+.pokeCard{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 2%;
+    background: linear-gradient(to bottom right, #3d7dca, #003a70);
+    /* padding: 5rem; */
+    /* margin-bottom: 5rem; */
+    color: #ffcb05;
+    padding: 2%;
+    border-radius: 7%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+    cursor: pointer;
+}
+
+.wrap-image{
+
+}
+
+.sizeImage{
+    max-width: 200px;
+    max-height: 200px;
+}
