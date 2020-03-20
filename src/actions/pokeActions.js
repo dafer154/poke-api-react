@@ -34,7 +34,7 @@ export const fetchPokemon = id => dispatch =>{
             console.log("test", resp);
             dispatch({
                 type: FETCH_POKEMON,
-                payload: resp
+                payload: resp.data
             })
         }).catch(err => console.log(err))
 }
