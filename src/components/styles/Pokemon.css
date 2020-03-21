@@ -1,0 +1,65 @@
+.sizeImage{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.titlePokemon{
+    text-align: center;
+    color: #ffcb05;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.numberPokemon{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.pokeCard{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 2%;
+    background: linear-gradient(to bottom right, #3d7dca, #003a70);
+    color: #ffcb05;
+    padding: 2%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+}
+
+.pokemonDetail{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+    margin: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    border-radius: 19px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: lavender;
+}
+
+.wrap-pokemon{
+    display: flex;
+}
+
+.textPokemon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 3%;
+    width: 32%;
+}
+
+.mainSpan{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.wrapDescription{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;  
+}
+

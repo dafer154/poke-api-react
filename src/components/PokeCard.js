@@ -24,9 +24,11 @@ const PokeCard = ({pokemon}) => {
             <div className="wrap-image">
               <img className="sizeImage" src={urlImagePokemon(pokemon.url)} alt="pokemon Cover" />  
             </div>
+            <div>
+            <h1>#{idpokemon(pokemon.url)}</h1>
+            </div>
             <Link className="btn btn-primary" to={`/pokemon/${idpokemon(pokemon.url)}`}>
                     Pokemon Details
-            <i className="fas fa-chevron-right" />
                 </Link>
             
         </div>

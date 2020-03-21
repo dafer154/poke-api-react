@@ -10,13 +10,10 @@ export class PokemonContainer extends Component {
         this.props.fetchPokemones();
     }
 
-    
     render() {
 
         const {pokemones} = this.props
-
-        console.log('pokemones', pokemones)
-
+        
         return (
             <div className='pokedex'>
                 {pokemones.map(pokemon =>{

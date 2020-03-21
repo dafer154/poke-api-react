@@ -17,7 +17,7 @@ const Footer = () =>{
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  TMDB
+                  POKE-API 
                 </a>
               </div>
             </div>
